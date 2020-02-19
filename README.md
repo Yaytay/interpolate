@@ -11,13 +11,13 @@ Any text value other than "nan" will cause an error message to be printed, but p
 The interpolate tool is written to handle relatively large files - as long as four lines can be held in memory it should work with any size file.
 
 # Usage
-
+```
 interpolate [OPTIONS] <inputfile> <outputfile>
  inputfile may be "-" to input from stdin
  outputfile may be "-" to output to stderr
  options:
   -?    Print this message
-
+```
 # Compilation
 
 The interpolate tool was written using go 1.13 on linux, though it should build and run on Windows too.
